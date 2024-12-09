@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panadería - El Sabor de lo Auténtico</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <a href="#home"><img src="https://celicioso.shop/wp-content/uploads/2022/02/WhiteLogo_150x.png" alt="Logo de la Panadería"></a>
+        </div>
+        <nav>
+            <ul>
+                <!-- Home Icon -->
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        
+                <!-- Nosotros Icon -->
+                <li><a href="#nosotros"><i class="fas fa-users"></i> Nosotros</a></li>
+        
+                <!-- Productos Icon -->
+                <li><a href="#productos"><i class="fas fa-box"></i> Productos</a></li>
+        
+                <!-- Tienda Icon -->
+                <li><a href="#locales"><i class="fas fa-map-marker" aria-hidden="true"></i> Tienda</a></li>
+        
+                <!-- Contacto Icon -->
+                <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+
+                <li><a href="#pedido"><i class="fas fa-store"></i>Haz tu pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home"> 
+        <h1> Delicioso </span> <br> Gluten Free Bakery</h1>
+        <div class="slider">
+            <div class="slide"> 
+                <img src="img/hero.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide"> 
+                <img src="img/madrid-sin-gluten-celicioso.jpg" alt="Imagen 2">
+            </div>   
+        </div>
+        <button class="cta-button" onclick="window.location.href='#pedido'">Haz tu pedido</button>
+
+    </section>
+    <section id="nosotros">
+     <section class="nosotros">
+        <div class="sobreNosotrosContainer">
+        <h2>Sobre Nosotros</h2>
+        <p>Delicioso abre sus puertas en agosto de 2012 para llevar a todos sus clientes productos sin gluten acompañados de una experiencia única. Lo que nació como Gluten free Bakery es hoy una referencia en restaurantes saludables, con ingredientes y platos que despiertan los sentidos y contribuyen al bienestar de todos sus clientes.</p>
+        </div>
+    </section>
+</section>
+    <section id="pedido">
+    <section id="productos">
+        <h2>Cupcakes</h2>
+        <div class="product-gallery">    
+            <div class="product-item">
+                <img src="img/ChocoVainilla.jpg" alt="Cupcake Chocolate Vainilla">
+                <h3>Cupcake Chocolate Vainilla</h3>
+                <p>Nuestro cupcake clásico. Alérgenos: leche, huevos y derivados, soja, sulfitos, altramuces.</p>
+                <p>€3.40</p>
+                <button id="buttonComprando" class="buttonComprar" data-name="Cupcake Chocolate Vainilla" data-price="3.40">Comprar</button>
+            </div>
+            <div class="product-item">
+                <img src="img/chocoExtra.jpg" alt="chocoExtra">
+                <h3>Cupcake Chocolate Extravaganza</h3>
+                <p>El cupcake para los amantes del chocolate. Alérgenos: leche, huevos y derivados, soja, sulfitos, altramuces
+                </p>
+                <p>$3.00</p>
+                <button id="buttonComprando" class="buttonComprar" data-name="Cupcake Chocolate Extravaganza" data-price="3.00">Comprar</button>
+            </div>
+            <div class="product-item">
+                <img src="img/VainillaMasc.jpg" alt="Vainilla Mascarpone">
+                <h3>Cupcake Vainilla Mascarpone</h3>
+                <p>Cupcake de vainilla y crema de queso mascarpone. Alérgenos: leche, huevos y derivados, soja, sulfitos, altramuces
+                </p>
+                <p>$3.00</p>
+                <button id="buttonComprando" class="buttonComprar" data-name="Cupcake Vainilla Mascarpone" data-price="3.00">Comprar</button>
+            </div>
+            <div class="product-item">
+                <img src="img/RedVelvet.jpg" alt="Red velvet">
+                <h3>Cupcake Red velvet</h3>
+                <p>Cupcake de vainilla acaramelada y crema de queso. Alérgenos: leche, huevos y derivados, soja, sulfitos, altramuces
+                </p>
+                <p>$3.00</p>
+                <button id="buttonComprando" class="buttonComprar" data-name="Cupcake Red Velvet" data-price="3.00">Comprar</button>     
+            </div>
+            <div class="product-item">
+                <img src="img/LemonlIme.jpg" alt="LemonlIme">
+                <h3>Cupcake Limón Lima</h3>
+                <p>Cupcake de lima y limón. Alérgenos: leche, huevos y derivados, soja, sulfitos, altramuces
+                </p>
+                <p>$3.00</p>
+                <button id="buttonComprando" class="buttonComprar" data-name="Cupcake Lemon lime" data-price="3.00">Comprar</button>
+            </div>
+            <div class="product-item">
+                <img src="img/BananaMasc.jpg" alt="Plátano Mascarpone">
+                <h3>Cupcake Plátano Mascarpone</h3>
+                <p>Cupcake de plátano y queso mascarpone. Alérgenos: leche, huevos y derivados, soja, sulfitos, altramuces
+                </p>
+                <p>$3.00</p>
+                <button id="buttonComprando" class="buttonComprar" data-name="Cupcake Platano" data-price="3.00" >Comprar</button>
+            </div>
+        </div>
+    </section>
+</section>
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <div id="cart-items">
+                <!-- Aquí se agregan los productos -->
+            </div>
+            <div class="cart-summary">
+                <p>Total: €<span id="cart-total">0.00</span></p>
+                <button id="vaciar-carrito">Seguir comprando</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--Ubicacion-->
+
+    <section id="locales">
+        <div class="background-section" id="background-slider">
+            <h1>Nuestros locales</h1>
+        </div>
+        
+        <div class="buscador-section">
+            <h2>Todos los locales Delicioso</h2>
+            <div class="buscador">
+                <input id="inputBuscar" type="text" placeholder="Introduce tu dirección o código postal">
+                <button id="buscarBTN" type="button">Buscar</button>
+            </div>
+            <button class="buscador-btn">UN DELICIOSO CERCA DE TI</button>
+            <button class="buscador-btn">BUSCAR POR PROVINCIA</button>
+        </div>
+    </section>
+
+    <!--Contacto-->
+    <section id="contacto">
+        <div class="contact-container">
+            <h2>Contacto</h2>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Tu email" required>
+    
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+    
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!--FOOOTER-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#home"><img src="https://celicioso.shop/wp-content/uploads/2022/02/WhiteLogo_150x.png" alt="Logo de la Panadería"></a>
+            </div>
+            <div class="footer-links">
+                <a href="#nosotros">Nosotros</a>
+                <a href="#productos">Productos</a>
+                <a href="#locales">Locales</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="footer-info">
+                <p>© 2024 Panadería Delicioso - Todos los derechos reservados</p>
+                <p><a href="politica-privacidad.html">Política de Privacidad</a> | <a href="terminos-servicio.html">Términos de Servicio</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
